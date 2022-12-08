@@ -9,7 +9,8 @@ const App = () => {
  
   return (
     <div id="main">
-      <AddTodo />
+      <AddTodo dispatch={dispatch} state={state} />
+      <Todo dispatch={dispatch} state={state}/>
      {/* Render list of Todo Components here */}
     </div>
   )
